@@ -1,0 +1,566 @@
+
+       @font-face {
+
+           src: url("./font/SpaceMono-Regular.ttf");
+           font-family: monospace;
+       }
+
+       body,
+       html {
+
+           font-family: "spacemono";
+           color: rgb(238, 232, 66);
+           margin: 0% 0% 0% 0%;
+           background-color: #10111c;
+
+
+       }
+
+
+       #overlay {
+           position: absolute;
+           display: inline;
+           z-index: 1; 
+           padding-left: 1%; 
+           padding-top: 1%;
+       }
+
+
+       .container {
+           height: 100vh;
+           width: 100vw;
+           position: relative;
+           display: block;
+           font-size: medium; 
+           font-family: monospace;
+
+       }
+    
+       [class*="column"] {
+        border: 1px solid black;  
+        padding-top: 1%;
+        padding-bottom: 1%;
+        padding-left: 1%;
+        padding-right: 1%;
+        margin-left: 1%;
+        margin-right: 1%;
+        box-sizing: border-box;   
+        
+       }
+
+
+       [class*="Column"] {
+        border: 1px solid black;  
+        padding-top: 0%;
+        padding-bottom: 0%;
+        padding-left: 0%;
+        padding-right: 0%;
+        margin-left: 1%;
+        margin-right: 1%;
+        box-sizing: border-box; 
+        
+       }
+       
+        [class*="row"] {
+        
+            margin-top: 1%;
+            margin-bottom: 1%;
+           box-sizing: border-box;     
+        
+       }
+
+
+    .row1 {
+           display: flex;
+           position: relative;
+           width: 100%;
+           height: 60%;
+
+       }
+
+
+       .column1 {
+           position: relative;
+           display: inline;
+           width: 100%;
+           height: 100%;
+           background-color: #171935;
+           overflow: auto;
+           scrollbar-width: none;
+           font-family: monospace;
+
+       }
+
+     .row2 {
+           position: relative;
+           display: flex;
+           width: 100%;
+           height: 40%;
+
+
+
+       }
+
+       .column2 {
+
+           position: relative;
+           display: flex;
+           width: 30%;
+           height: 100%;
+           background-color: #171935;
+           overflow: hidden;
+           align-items: center;
+           justify-content: center;
+
+       }
+
+       .column3 {
+
+           position: relative;
+           display: inline;
+           width: 70%;
+           height: 100%;
+           background-color: #171935;
+           overflow:scroll;
+           font-size:larger;
+
+       }
+
+
+    .row3 {
+           position: relative;
+           display: flex;
+           width: 100%;
+           height: 18%;
+           
+
+       }
+
+       .column4 {
+           position: relative;
+           display: inline;
+           width: 100%;
+           height: 100%;
+           background-size: 100% 100%;
+           overflow: hidden;
+
+       }
+
+    .row4 {
+           position: relative;
+           display: flex;
+           width: 100%;
+           height: 42%;
+           font-size: medium;
+
+
+       }
+
+       .column5 {
+
+           position: relative;
+           display: inline;
+           width: 33%;
+           height: 100%;
+           background-color: #273742;
+           font-family:monospace;
+           overflow: scroll;
+
+       }
+       
+
+       .column6 {
+
+           position: relative;
+           display: inline;
+           width: 33%;
+           height: 100%;
+           background-color: #44b1ff;
+           
+          
+
+
+       }
+
+       .column7 {
+
+           position: relative;
+           display: inline;
+           width: 33%;
+           height: 100%;
+           background-color: #812315;
+
+
+       }
+
+    .row5 {
+           display: flex;
+           position: relative;
+           width: 100%;
+           height: 70%;
+         }
+
+       .column8 {
+
+           position: relative;
+           display: inline;
+           width: 33%;
+           height: 100%;
+           background-color: #69abca;
+           overflow: scroll;
+
+
+       }
+        
+       .column9 {
+
+           position: relative;
+           display: inline;
+           width: 33%;
+           height: 100%;
+           background-color: #69abca;
+
+
+       }
+
+       .column10 {
+
+           position: relative;
+           display: inline;
+           width: 33%;
+           height: 100%;
+           background-color: #69abca;
+
+
+       }
+
+    .row6 {
+        display: flex;
+        position: relative;
+        width: 100%;
+        height: 33%;
+     }
+
+         .column11 {
+
+           position: relative;
+           display: inline;
+           width: 100%;
+           height: 100%;
+           background: linear-gradient(to right, rgb(35, 35, 114), rgb(86, 91, 100), rgb(221, 211, 27));
+
+
+       }
+
+    .row7 {
+        display: flex;
+        position: relative;
+        width: 100%;
+        height: 15%;
+    }
+
+     .row8 {
+        display: flex;
+        position: relative;
+        width: 100%;
+        height: 40%;
+    }
+
+
+        .column12 {
+
+           position: relative;
+           display: inline;
+           width: 33%;
+           height: 100%;
+           background: #889aa2;
+
+
+       }
+
+       .column13 {
+
+           position: relative;
+           display: inline;
+           width: 33%;
+           height: 100%;
+           background: #cd0a0a;
+
+
+       }
+
+       .column14 {
+
+           position: relative;
+           display: inline;
+           width: 33%;
+           height: 100%;
+           background-color: #889aa2;
+
+
+       }
+
+    .row9 {
+        display: flex;
+        position: relative;
+        width: 100%;
+        height: 40%;
+    }
+
+        .column15 {
+
+           position: relative;
+           display: inline;
+           width: 33%;
+           height: 100%;
+           background-color: #889aa2;
+
+
+       }
+       .column16 {
+
+           position: relative;
+           display: inline;
+           width: 33%;
+           height: 100%;
+           background-color: #889aa2;
+
+
+       }
+
+       .column17 {
+
+           position: relative;
+           display: inline;
+           width: 33%;
+           height: 100%;
+           background-color: #889aa2;
+
+
+       }
+
+
+
+       img {
+
+
+           position:relative;
+           width: 100%;
+           height: 100%;
+           z-index: 0;
+           
+
+       }
+
+
+       #transition1 {
+           position: relative;
+           width: 40%;
+           height: 40%;
+           transition: width 4s, height 4s, opacity 3s;
+           z-index: 0;
+
+
+       }
+
+       #transition1:hover {
+
+           width: 95%;
+           height: 90%;
+           z-index: 2;
+
+       }
+
+
+
+
+       #animation1 {
+
+           position: relative;
+           animation-name: rotate;
+           animation-duration: 8s;
+           animation-timing-function: ease-in-out;
+           animation-iteration-count: infinite;
+
+
+       }
+
+       @keyframes rotate {
+
+           0% {
+               transform: rotate(0deg) scaleY(1);
+
+           }
+
+           25% {
+
+               transform: rotate(90deg) scaleY(0);
+           }
+
+           50% {
+
+               transform: rotate(180deg) scaleY(1);
+           }
+
+           75% {
+
+               transform: rotate(270deg) scaleY(0);
+           }
+
+           100% {
+               transform: rotate(360deg) scaleY(1);
+
+           }
+
+       }
+
+
+       #scrollingtextbox {
+           position: absolute;
+           display: inline;
+           width: 105vw;
+           z-index: 1;
+           font-family:monospace;
+           font-size: xx-large;
+           top: 5%;
+           left: 110%;
+           animation-name: scroll;
+           animation-duration: 25s;
+           animation-timing-function:linear;
+           animation-iteration-count: infinite;
+       }
+
+
+       @keyframes scroll {
+
+           0% {
+               transform: translate();
+
+           }
+
+           100% {
+               transform: translate(-230vw);
+
+           }
+
+       }
+
+       /*pop up html*/
+
+    .row1a {
+        display: flex;
+        position: relative;
+        width: 100%;
+        height: 8%;
+    }
+
+    .row2a {
+        display: flex;
+        position: relative;
+        width: 100%;
+        height: 60%;
+    }
+    
+    .row3a {
+        display: flex;
+        position: relative;
+        width: 100%;
+        height: 60%;
+    }
+
+        .column1a {
+
+           position: relative;
+           display: inline;
+           width: 50%;
+           height: 100%;
+           text-align: left;
+
+
+       }
+
+       .column2a {
+
+           position: relative;
+           display: inline;
+           width: 50%;
+           height: 100%;
+           text-align: left;
+
+
+       }
+
+
+       .row4a {
+        display: flex;
+        position: relative;
+        width: 100%;
+        height: 25%;
+    }
+
+        .column3a {
+
+           position: relative;
+           display: inline;
+           width: 50%;
+           height: 100%;
+           text-align: center;
+
+
+       }
+
+       @media only screen and (max-width: 1080px) {
+
+
+           [class*="column"] {
+
+               display: block;
+               position: relative;
+               width: 100%;
+               height: 20%;
+               margin-top: -1%;
+               margin-bottom: -1%;
+               margin-left: 0%;
+               margin-right: 0%;
+               padding-left: 1%;
+               padding-top: 1%;
+
+
+           }
+
+           .column4 {
+
+               padding-left: 0%;
+               padding-top: 0%;
+
+           }
+
+           [class*="row"] {
+
+               display: inline;
+               position: relative;
+               width: 100%;
+               height: 20%;
+               margin-top: 0%;
+               margin-bottom: 0%;
+               margin-left: 0%;
+               margin-right: 0%;
+               padding: 0;
+           }
+
+           .container {
+
+               height: 2000px;
+               width: 100%;
+               position: relative;
+               display: block;
+               margin-top: 0%;
+               margin-bottom: 0%;
+               margin-left: 0%;
+               margin-right: 0%;
+               padding: 0;
+
+           }
+       }
+
+
